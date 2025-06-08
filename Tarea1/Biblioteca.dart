@@ -112,7 +112,7 @@ void main() {
     print('${libro.anioPublicacion}: ${libro.titulo}');
   }
 
-  miBiblioteca.eliminarLibro('Cien años de soledad'); // Libro que no existe
+  miBiblioteca.eliminarLibro('Odisea'); // Libro que no existe
   miBiblioteca.eliminarLibro('Los Cipotes'); // Libro existente
 
   miBiblioteca.mostrarLibros();
